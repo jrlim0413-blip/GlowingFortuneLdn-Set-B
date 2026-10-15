@@ -1,7 +1,4 @@
-/* ==========================================================================
-   DEFICIT & NEGATIVE BALANCE INSPECTOR MODAL
-   Modern, High-Contrast Financial Audit Design with Dark Mode Support
-   ========================================================================== */
+
 
 .deficit-modal-backdrop {
   position: fixed;
@@ -52,7 +49,6 @@
   }
 }
 
-/* Header */
 .deficit-modal-header {
   display: flex;
   align-items: center;
@@ -178,7 +174,6 @@
   border-color: #fca5a5;
 }
 
-/* KPI Summary Cards */
 .deficit-kpi-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -266,7 +261,6 @@
   text-overflow: ellipsis;
 }
 
-/* Control Bar */
 .deficit-controls-bar {
   padding: 14px 24px;
   background: #ffffff;
@@ -435,7 +429,6 @@
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
 }
 
-/* Modal Body */
 .deficit-modal-body {
   flex: 1;
   overflow-y: auto;
@@ -443,7 +436,6 @@
   background: #f8fafc;
 }
 
-/* Empty State */
 .deficit-empty-state {
   display: flex;
   flex-direction: column;
@@ -491,7 +483,6 @@
   background: #dbeafe;
 }
 
-/* Grouped Cards */
 .deficit-groups-list {
   display: flex;
   flex-direction: column;
@@ -565,7 +556,6 @@
   border-radius: 6px;
 }
 
-/* Tables */
 .deficit-table-wrap,
 .deficit-flat-table-wrap {
   width: 100%;
@@ -739,7 +729,6 @@
   color: #dc2626;
 }
 
-/* Modal Footer */
 .deficit-modal-footer {
   padding: 12px 24px;
   border-top: 1px solid #e2e8f0;
@@ -774,10 +763,6 @@
   background: #f1f5f9;
   color: #0f172a;
 }
-
-/* ==========================================================================
-   DARK MODE OVERRIDES ([data-theme="dark"])
-   ========================================================================== */
 
 [data-theme="dark"] .deficit-modal-shell {
   background: #18191a;
@@ -971,10 +956,6 @@
   color: #e4e6eb;
 }
 
-/* ==========================================================================
-   RESPONSIVENESS
-   ========================================================================== */
-
 @media (max-width: 900px) {
   .deficit-kpi-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1009,10 +990,6 @@
     margin-left: 0;
   }
 }
-
-/* ==========================================================================
-   MAIN MODAL NAVIGATION TABS & CASHIER CLAIMS LEDGER
-   ========================================================================== */
 
 .deficit-main-nav-bar {
   display: flex;
@@ -1060,7 +1037,6 @@
   margin-left: 2px;
 }
 
-/* Cashier Claims Container */
 .cashier-claims-wrapper {
   padding: 20px 24px;
   display: flex;
@@ -1125,7 +1101,6 @@
   color: #0f172a;
 }
 
-/* Claims Table */
 .cashier-claims-table-container {
   border: 1px solid #e2e8f0;
   border-radius: 10px;
@@ -1234,7 +1209,6 @@
   gap: 12px;
 }
 
-/* Footer Box */
 .cashier-claims-footer {
   display: flex;
   align-items: center;
@@ -1323,7 +1297,6 @@
   }
 }
 
-/* Row Saved / Unsaved Indicator Styling */
 .cashier-claim-row {
   transition: all 0.2s ease;
 }

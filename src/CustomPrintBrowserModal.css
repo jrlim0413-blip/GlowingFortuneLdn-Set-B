@@ -1,6 +1,4 @@
-/* ==========================================================================
-   CUSTOM IN-APP PRINT BROWSER & FORMAT STUDIO STYLES
-   ========================================================================== */
+
 
 .custom-print-browser-backdrop {
   position: fixed;
@@ -32,7 +30,6 @@
   overflow: hidden;
 }
 
-/* ── TOP CONTROL HEADER (Studio Bar) ─────────────────────────────────── */
 .custom-print-topbar {
   display: flex;
   align-items: center;
@@ -100,7 +97,6 @@
   white-space: nowrap;
 }
 
-/* ── TOPBAR CENTER: SUPERVISOR DROPDOWN & ZOOM CONTROLS ────────────── */
 .print-topbar-center {
   display: flex;
   align-items: center;
@@ -178,7 +174,6 @@
   text-align: center;
 }
 
-/* ── TOPBAR RIGHT: PRINT BUTTONS ────────────────────────────────────── */
 .print-topbar-right {
   display: flex;
   align-items: center;
@@ -227,7 +222,6 @@
   color: #ffffff;
 }
 
-/* ── MAIN BODY LAYOUT ───────────────────────────────────────────────── */
 .custom-print-body {
   display: flex;
   flex: 1;
@@ -235,7 +229,6 @@
   position: relative;
 }
 
-/* ── LEFT SIDEBAR: FORMAT CONTROLS PANEL ────────────────────────────── */
 .custom-print-sidebar {
   width: 320px;
   min-width: 320px;
@@ -426,7 +419,6 @@
   color: #f8fafc;
 }
 
-/* ── RIGHT STAGE: VISUAL PAPER DOCUMENT STAGE ───────────────────────── */
 .custom-print-stage {
   flex: 1;
   background: #020617;
@@ -465,7 +457,6 @@
   height: 100%;
 }
 
-/* ── PRINT MEDIA OVERRIDES ──────────────────────────────────────────── */
 @media print {
   .custom-print-topbar,
   .custom-print-sidebar,
